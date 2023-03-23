@@ -42,6 +42,7 @@ void * firstList(List * list) {
   if ( !list->head){
     return NULL;
   }
+  Node* n = list->head;
   list->current = list->head;
   
     return (list->head->data);

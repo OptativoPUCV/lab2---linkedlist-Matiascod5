@@ -173,3 +173,14 @@ Thu 23 Mar 2023 04:20:15 PM UTC:
  tests:  5|4
 total_score: 25/70
 20bd648
+Thu 23 Mar 2023 04:23:36 PM UTC: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+list.c: In function ‘firstList’:
+list.c:45:9: error: unused variable ‘n’ [-Werror=unused-variable]
+   45 |   Node* n = list->head;
+      |         ^
+cc1: all warnings being treated as errors
+Compilation failed
+63ac493
