@@ -1,0 +1,6 @@
+Thu 23 Mar 2023 03:57:13 PM UTC: 
+ list.c | 22 +++++++++++++++++-----
+ 1 file changed, 17 insertions(+), 5 deletions(-)
+ tests:  1|5
+total_score: 10/70
+a909ff6
