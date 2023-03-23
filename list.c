@@ -41,13 +41,13 @@ List * createList( ) {
 void * firstList(List * list) {
   list->current = list->head->data;
   
-    return list->head->data;
+    return list->head;
 }
 
 void * nextList(List * list) {
   list->current = list->current->next;
   
-    return list->current->next->data;
+    return list->current->next;
 }
 
 void * lastList(List * list) {
