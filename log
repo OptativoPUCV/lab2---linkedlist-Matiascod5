@@ -306,3 +306,13 @@ Sat 25 Mar 2023 08:20:37 PM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 8349a7f
+Sat 25 Mar 2023 08:21:08 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘prevList’:
+list.c:66:9: error: expected expression before ‘List’
+   66 |   if ( !List->head  || list->head == list->current) return NULL;
+      |         ^~~~
+Compilation failed
+5d351fe
