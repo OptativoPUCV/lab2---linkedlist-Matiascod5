@@ -89,7 +89,7 @@ void pushFront(List * list, void * data) {
     list->head = aux;
       return aux;
   }
-  return aux;
+  return aux->data;
   
   
   
