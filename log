@@ -669,3 +669,9 @@ list.c:79:13: error: ‘aux’ is used uninitialized in this function [-Werror=u
 cc1: all warnings being treated as errors
 Compilation failed
 65c95ce
+Sat 25 Mar 2023 09:26:07 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  9|3
+total_score: 35/70
+47978c0
