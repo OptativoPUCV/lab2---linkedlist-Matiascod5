@@ -823,3 +823,8 @@ list.c:121:22: error: statement with no effect [-Werror=unused-value]
 cc1: all warnings being treated as errors
 Compilation failed
 8b33ae2
+Sat 25 Mar 2023 10:44:49 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+f3b4069
