@@ -652,3 +652,9 @@ list.c:75:6: note: declared here
 cc1: all warnings being treated as errors
 Compilation failed
 5fe6187
+Sat 25 Mar 2023 09:24:33 PM UTC: 
+ list.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  9|3
+total_score: 35/70
+f373ce5
