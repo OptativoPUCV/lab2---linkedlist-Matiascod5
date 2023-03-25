@@ -913,3 +913,20 @@ Sat 25 Mar 2023 11:08:32 PM UTC:
  tests:  11|1
 total_score: 55/70
 04bae9b
+Sat 25 Mar 2023 11:10:20 PM UTC: 
+ list.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:117:8: error: variable or field ‘aux’ declared void
+  117 |   void aux = list->current->data;
+      |        ^~~
+list.c:117:14: error: initialization of ‘int’ from ‘void *’ makes integer from pointer without a cast [-Werror=int-conversion]
+  117 |   void aux = list->current->data;
+      |              ^~~~
+list.c:129:10: error: returning ‘int’ from a function with return type ‘void *’ makes pointer from integer without a cast [-Werror=int-conversion]
+  129 |   return aux;
+      |          ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+c85724f
