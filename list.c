@@ -80,6 +80,10 @@ void pushFront(List * list, void * data) {
   }
   list->head = aux;
   aux->prev = NULL;
+
+  if ( list->tail->prev == list->head){
+    list->tail->prev = list->head->next;
+  }
   
   
   
