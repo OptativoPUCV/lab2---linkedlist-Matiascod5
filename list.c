@@ -142,16 +142,12 @@ void * popCurrent(List * list) {
     
     
     
-    
-    
-    
-  
-    
+
   }
 
   
 
-  list->head->next = list->current;
+  //list->head->next = list->current;
   return aux;
 }
 
