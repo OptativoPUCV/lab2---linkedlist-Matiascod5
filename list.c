@@ -96,7 +96,7 @@ void pushCurrent(List * list, void * data) {
   aux->prev= list->current;
   list->current = aux;
   list->current->prev = aux->prev;
-  list->current->next = aux->next
+  list->current->next = aux->next;
   
   
 }

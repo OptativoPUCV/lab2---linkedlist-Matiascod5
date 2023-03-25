@@ -712,3 +712,9 @@ list.c:99:34: error: expected ‘;’ before ‘}’ token
       | ~                                 
 Compilation failed
 33a2e52
+Sat 25 Mar 2023 10:04:43 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  10|2
+total_score: 45/70
+13eb0e9
