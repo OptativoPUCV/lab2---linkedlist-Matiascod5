@@ -1012,3 +1012,17 @@ Sat 25 Mar 2023 11:25:21 PM UTC:
  tests:  11|1
 total_score: 55/70
 4b48532
+Sat 25 Mar 2023 11:26:16 PM UTC: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:139:28: error: expected ‘;’ before ‘}’ token
+  139 |     list->tail = list->head
+      |                            ^
+      |                            ;
+......
+  143 |   }
+      |   ~                         
+Compilation failed
+36ff29d
