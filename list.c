@@ -97,7 +97,7 @@ void pushCurrent(List * list, void * data) {
   list->current = aux;
   list->current->prev = aux->prev;
   list->current->next = aux->next;
-  if ( list->current = list->head){
+  if ( list->current == list->head){
     pushFront( list, data);
   }
   
