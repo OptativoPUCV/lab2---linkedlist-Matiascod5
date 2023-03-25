@@ -892,3 +892,18 @@ Sat 25 Mar 2023 11:07:53 PM UTC:
  tests:  11|1
 total_score: 55/70
 7d5d76b
+Sat 25 Mar 2023 11:08:25 PM UTC: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:126:25: error: ‘Node’ has no member named ‘dato’; did you mean ‘data’?
+  126 |   return list->current->dato;
+      |                         ^~~~
+      |                         data
+list.c:127:1: error: control reaches end of non-void function [-Werror=return-type]
+  127 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+e8bfe5b

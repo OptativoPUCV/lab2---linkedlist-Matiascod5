@@ -119,11 +119,11 @@ void * popCurrent(List * list) {
     free( list->current);
     list->current = list->head;
     list->current->prev = NULL;
-    return list->current->data;
+    
   } 
 
   
-  return NULL;
+  return list->current->dato;
 }
 
 void cleanList(List * list) {
