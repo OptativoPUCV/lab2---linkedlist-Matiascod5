@@ -477,3 +477,9 @@ list.c:75:6: note: declared here
 cc1: all warnings being treated as errors
 Compilation failed
 ed350a3
+Sat 25 Mar 2023 09:02:42 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  9|0
+   [ INFO ] Insertando 18 a la lista (pushfront)
+eaa26d8
