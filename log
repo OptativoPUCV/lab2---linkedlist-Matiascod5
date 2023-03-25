@@ -366,3 +366,14 @@ list.c:67:8: error: suggest parentheses around assignment used as truth value [-
 cc1: all warnings being treated as errors
 Compilation failed
 d668c0c
+Sat 25 Mar 2023 08:26:07 PM UTC: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+list.c: In function ‘prevList’:
+list.c:68:8: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   68 |   if ( list->current = list->head) return NULL;
+      |        ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+0243873
