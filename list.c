@@ -67,7 +67,7 @@ void * prevList(List * list) {
   
   
   list-> current = list->current->prev;
-    return list->current->prev;
+    return (list->current->prev);
 }
 
 void pushFront(List * list, void * data) {
