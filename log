@@ -404,3 +404,14 @@ Sat 25 Mar 2023 08:28:47 PM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 b6a7361
+Sat 25 Mar 2023 08:29:05 PM UTC: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘prevList’:
+list.c:68:8: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   68 |   if ( list->current = list->head) return NULL;
+      |        ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+e3b02e8
