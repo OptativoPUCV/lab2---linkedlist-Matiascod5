@@ -698,3 +698,17 @@ Sat 25 Mar 2023 09:58:17 PM UTC:
  tests:  10|2
 total_score: 45/70
 678f3ac
+Sat 25 Mar 2023 10:04:36 PM UTC: 
+ list.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘pushCurrent’:
+list.c:99:34: error: expected ‘;’ before ‘}’ token
+   99 |   list->current->next = aux->next
+      |                                  ^
+      |                                  ;
+......
+  102 | }
+      | ~                                 
+Compilation failed
+33a2e52
