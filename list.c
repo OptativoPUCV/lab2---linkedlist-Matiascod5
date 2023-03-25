@@ -134,12 +134,12 @@ void * popCurrent(List * list) {
     
   } else if( list->current == list->tail){
 
-    list->current->prev = list->tail;
+    list->current->prev = list->head;
     list->tail->prev = list->head;
     list->tail->next = NULL;
     
-    printf("hola");
     
+  
     
   }
 
